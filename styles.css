@@ -1,17 +1,18 @@
 body {
   height: 100vh;
   margin: 0;
-  overflow: hidden;
   display: flex;
   flex-direction: column;
+  font-family: "Hero Main";
 }
 
 .container {
   flex: 1;
   display: flex;
   flex-direction: column;
-  justify-content: center;
-  align-items: center;
+  justify-content: space-between;
+  align-items: stretch;
+  text-align: center;
 }
 
 .header,
@@ -19,9 +20,23 @@ body {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  padding: 16px 32px;
+  padding: 16px 33vh;
   background-color: #1f2937;
   color: #f9faf8;
+}
+
+.header .left {
+  font-size: 24px;
+  font-weight: 800;
+}
+
+.header .right {
+  font-size: 18px;
+  color: #e5e7eb;
+}
+
+.footer {
+  justify-content: center;
 }
 
 ul {
@@ -30,4 +45,40 @@ ul {
   padding: 0;
   display: flex;
   gap: 10px;
+}
+
+.content1 {
+  background-color: #1f2937;
+  color: #f9faf8;
+  display: flex;
+  justify-content: space-around;
+  padding: 32px 33vh;
+}
+
+.content1 * {
+  flex: 1;
+}
+
+.content1 .left {
+  text-align: left;
+}
+
+.content1 .right {
+}
+
+.content2 {
+  color: #1f2937;
+  /* background-color: #f9faf8; */
+  font-size: 36px;
+  font-weight: 800;
+}
+
+.content3 {
+  background-color: #e3e7eb;
+  color: #1f2937;
+}
+
+.content4 {
+  background-color: ;
+  color: #1f2937;
 }
