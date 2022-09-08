@@ -1,3 +1,7 @@
+* {
+  box-sizing: border-box;
+}
+
 body {
   height: 100vh;
   margin: 0;
@@ -99,6 +103,15 @@ ul {
 }
 
 .content4 {
-  background-color: ;
-  color: #1f2937;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.content4 div {
+  color: #e3e7eb;
+  border: 1px solid #1f2937;
+  background-color: #1f2937;
+  padding: 16vh 16vh;
 }
