@@ -2,7 +2,7 @@
 Theme colors:
 #f9faf8 //smoky white
 #e3e7eb //light gray
-#1f2937 //dark navy
+#660600 //dark red
 */
 
 * {
@@ -37,7 +37,7 @@ a {
   align-items: center;
   justify-content: space-between;
   padding: 16px 33vh;
-  background-color: #1f2937;
+  background-color: #660600;
   color: #f9faf8;
 }
 
@@ -60,7 +60,7 @@ ul {
 }
 
 #welcome {
-  background-color: #1f2937;
+  background-color: #660600;
   color: #f9faf8;
   display: flex;
   justify-content: space-between;
@@ -87,7 +87,7 @@ ul {
 
 #projects {
   background-color: #e3e7eb;
-  color: #1f2937;
+  color: #660600;
   /* background-color: #f9faf8; */
   font-size: 32px;
   height: 100vh;
@@ -103,11 +103,11 @@ ul {
 }
 
 #projects a {
-  color: #1f2937;
+  color: #660600;
 }
 
 #about {
-  color: #1f2937;
+  color: #660600;
   height: 100vh;
   display: flex;
   justify-content: center;
@@ -125,27 +125,36 @@ ul {
   gap: 32px;
   align-items: center;
   height: 100vh;
-  background-color: #1f2937;
+  background-color: #660600;
   text-align: center;
   color: #e3e7eb;
 }
 
 #contact #form {
-  color: #1f2937;
+  color: #660600;
   background-color: #e3e7eb;
   padding: 16vh 16vh;
   text-align: left;
   display: flex;
   font-size: 16px;
+  border-radius: 16px;
+}
+
+#contact button {
+  border-radius: 8px;
+  padding: 8px;
+  background-color: #660600;
+  color: #e3e7eb;
+  border: #660600;
 }
 
 .footer {
   background-color: #e3e7eb;
-  color: #1f2937;
+  color: #660600;
   justify-content: center;
 }
 
 .footer a {
   text-decoration: underline;
-  color: #1f2937;
+  color: #660600;
 }
